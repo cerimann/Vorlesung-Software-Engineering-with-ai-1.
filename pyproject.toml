@@ -1,0 +1,16 @@
+[project]
+name = "stackoverflow-challenge"
+version = "0.1.0"
+description = "Stack Overflow questions over time with AI milestone markers"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.8",
+    "pandas>=2.2",
+    "requests>=2.31",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.uv]
+package = false
